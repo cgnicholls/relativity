@@ -1,34 +1,26 @@
 package relativity;
 
 import java.awt.BorderLayout;
-import java.awt.event.KeyEvent;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JTextField;
-
-import relativity.toolkit.Complex;
-import relativity.toolkit.GL2C;
-import relativity.toolkit.HomCoords2D;
-import relativity.toolkit.MobiusTransformation;
 
 import models.ConnectionModel;
-
+import models.Model;
+import models.VisualiserModel;
 import controller.KeyboardInput;
 import display.DisplayPanel;
-
 
 public class MainLoop {
 
 	public static void main(final String args[]) {
-		MainLoop tracer = new MainLoop();
-		tracer.start();
+		MainLoop relativityProgram = new MainLoop();
+		relativityProgram.start();
 	}
 	
 	private final JFrame _frame;
 	private final DisplayPanel _displayPanel;
-	private final ConnectionModel _model;
-	private final String _title = "Transformations of the Sphere of Sight";
+	private final Model _model;
+	private final String _title = "Relativity Visualiser";
 	private final KeyboardInput _keyboardInput;
 	
 	public MainLoop() {
@@ -39,7 +31,7 @@ public class MainLoop {
 		
 		_displayPanel = new DisplayPanel();
 		
-		_model = new ConnectionModel();
+		_model = new VisualiserModel();
 		
 		_frame.add(_displayPanel, BorderLayout.CENTER);
 		

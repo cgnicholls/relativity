@@ -25,7 +25,7 @@ import display.DisplayPanel;
 import display.SplitScreen;
 
 
-public class ConnectionModel {
+public class ConnectionModel implements Model {
 	private ClassicalScene _sceneClassical;
 	private Camera _cameraClassical;
 	

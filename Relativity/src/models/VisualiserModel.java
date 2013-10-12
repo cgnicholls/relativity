@@ -15,7 +15,7 @@ import controller.KeyboardInput;
 import display.DisplayPanel;
 
 
-public class VisualiserModel {
+public class VisualiserModel implements Model {
 	
 	private RelativisticRayTracer _relativisticRayTracer;
 	private Camera _relativisticCamera;

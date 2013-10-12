@@ -19,7 +19,7 @@ import controller.KeyboardInput;
 import display.DisplayPanel;
 
 
-public class MobiusModel {
+public class MobiusModel implements Model {
 	private ClassicalScene _sceneClassical;
 	private Camera _cameraClassical;
 	
@@ -69,7 +69,7 @@ public class MobiusModel {
 	/*
 	 * Processes the keyboard input. In particular, applies the moves to the viewer given by the key controls.
 	 */
-	protected void processKeyboardInput(final double deltaT, final KeyboardInput keyboardInput) {
+	public void processKeyboardInput(final double deltaT, final KeyboardInput keyboardInput) {
 		if (keyboardInput.keyDown(KeyEvent.VK_ESCAPE)) {
 			System.exit(0);
 		}
