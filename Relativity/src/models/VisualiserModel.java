@@ -3,14 +3,15 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import mobiustransformations.DisplayPanel;
-import mobiustransformations.relativisticraytracer.Camera;
-import mobiustransformations.relativisticraytracer.RelativisticFrame;
-import mobiustransformations.relativisticraytracer.RelativisticRayTracer;
-import mobiustransformations.scene.RelativisticScene;
-import mobiustransformations.toolkit.FourVector;
-import mobiustransformations.toolkit.Lorentz;
-import mobiustransformations.toolkit.Vector3;
+import relativity.DisplayPanel;
+import relativity.relativisticraytracer.Camera;
+import relativity.relativisticraytracer.RelativisticFrame;
+import relativity.relativisticraytracer.RelativisticRayTracer;
+import relativity.scene.RelativisticScene;
+import relativity.toolkit.FourVector;
+import relativity.toolkit.Lorentz;
+import relativity.toolkit.Vector3;
+
 import controller.KeyboardInput;
 
 

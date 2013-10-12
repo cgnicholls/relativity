@@ -3,24 +3,25 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import mobiustransformations.DisplayPanel;
-import mobiustransformations.SplitScreen;
-import mobiustransformations.classicalraytracer.CameraMotion.Frame;
-import mobiustransformations.classicalraytracer.CameraMotion;
-import mobiustransformations.classicalraytracer.ClassicalRayTracer;
-import mobiustransformations.classicalraytracer.ClassicalScene;
-import mobiustransformations.classicalraytracer.ClassicalSceneObject;
-import mobiustransformations.classicalraytracer.ClassicalSphere;
-import mobiustransformations.classicalraytracer.MobiusSphere;
-import mobiustransformations.relativisticraytracer.Camera;
-import mobiustransformations.scene.RelativisticScene;
-import mobiustransformations.toolkit.Complex;
-import mobiustransformations.toolkit.GL2C;
-import mobiustransformations.toolkit.HomCoords2D;
-import mobiustransformations.toolkit.Lorentz;
-import mobiustransformations.toolkit.MobiusTransformation;
-import mobiustransformations.toolkit.Quaternion;
-import mobiustransformations.toolkit.Vector3;
+import relativity.DisplayPanel;
+import relativity.SplitScreen;
+import relativity.classicalraytracer.CameraMotion;
+import relativity.classicalraytracer.ClassicalRayTracer;
+import relativity.classicalraytracer.ClassicalScene;
+import relativity.classicalraytracer.ClassicalSceneObject;
+import relativity.classicalraytracer.ClassicalSphere;
+import relativity.classicalraytracer.MobiusSphere;
+import relativity.classicalraytracer.CameraMotion.Frame;
+import relativity.relativisticraytracer.Camera;
+import relativity.scene.RelativisticScene;
+import relativity.toolkit.Complex;
+import relativity.toolkit.GL2C;
+import relativity.toolkit.HomCoords2D;
+import relativity.toolkit.Lorentz;
+import relativity.toolkit.MobiusTransformation;
+import relativity.toolkit.Quaternion;
+import relativity.toolkit.Vector3;
+
 import controller.KeyboardInput;
 
 

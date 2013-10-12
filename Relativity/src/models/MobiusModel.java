@@ -3,18 +3,19 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import mobiustransformations.DisplayPanel;
-import mobiustransformations.classicalraytracer.CameraMotion;
-import mobiustransformations.classicalraytracer.CameraMotion.Frame;
-import mobiustransformations.classicalraytracer.ClassicalRayTracer;
-import mobiustransformations.classicalraytracer.ClassicalScene;
-import mobiustransformations.classicalraytracer.MobiusSphere;
-import mobiustransformations.relativisticraytracer.Camera;
-import mobiustransformations.toolkit.Complex;
-import mobiustransformations.toolkit.GL2C;
-import mobiustransformations.toolkit.HomCoords2D;
-import mobiustransformations.toolkit.MobiusTransformation;
-import mobiustransformations.toolkit.Vector3;
+import relativity.DisplayPanel;
+import relativity.classicalraytracer.CameraMotion;
+import relativity.classicalraytracer.ClassicalRayTracer;
+import relativity.classicalraytracer.ClassicalScene;
+import relativity.classicalraytracer.MobiusSphere;
+import relativity.classicalraytracer.CameraMotion.Frame;
+import relativity.relativisticraytracer.Camera;
+import relativity.toolkit.Complex;
+import relativity.toolkit.GL2C;
+import relativity.toolkit.HomCoords2D;
+import relativity.toolkit.MobiusTransformation;
+import relativity.toolkit.Vector3;
+
 import controller.KeyboardInput;
 
 
