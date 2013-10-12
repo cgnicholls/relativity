@@ -1,11 +1,12 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
 import java.awt.Color;
 import java.awt.Rectangle;
 import java.util.ArrayList;
 
-import relativity.DisplayPanel;
-import relativity.relativisticraytracer.Camera;
+import display.DisplayPanel;
+
+import relativity.raytracing.relativistic.Camera;
 import relativity.toolkit.IntersectionFinder;
 import relativity.toolkit.Vector3;
 

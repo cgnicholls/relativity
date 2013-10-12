@@ -1,4 +1,4 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import relativity.toolkit.FourVector;
 import relativity.toolkit.Lorentz;

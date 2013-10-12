@@ -1,4 +1,4 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
 
 public interface ClassicalSceneObject {

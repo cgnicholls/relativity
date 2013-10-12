@@ -3,13 +3,12 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import relativity.DisplayPanel;
-import relativity.classicalraytracer.CameraMotion;
-import relativity.classicalraytracer.ClassicalRayTracer;
-import relativity.classicalraytracer.ClassicalScene;
-import relativity.classicalraytracer.MobiusSphere;
-import relativity.classicalraytracer.CameraMotion.Frame;
-import relativity.relativisticraytracer.Camera;
+import relativity.raytracing.classical.CameraMotion;
+import relativity.raytracing.classical.ClassicalRayTracer;
+import relativity.raytracing.classical.ClassicalScene;
+import relativity.raytracing.classical.MobiusSphere;
+import relativity.raytracing.classical.CameraMotion.Frame;
+import relativity.raytracing.relativistic.Camera;
 import relativity.toolkit.Complex;
 import relativity.toolkit.GL2C;
 import relativity.toolkit.HomCoords2D;
@@ -17,6 +16,7 @@ import relativity.toolkit.MobiusTransformation;
 import relativity.toolkit.Vector3;
 
 import controller.KeyboardInput;
+import display.DisplayPanel;
 
 
 public class MobiusModel {

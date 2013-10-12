@@ -1,11 +1,12 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import java.awt.Rectangle;
 import java.util.ArrayList;
 
-import relativity.DisplayPanel;
-import relativity.RayTracer;
-import relativity.RenderingThread;
+import display.DisplayPanel;
+
+import relativity.raytracing.RayTracer;
+import relativity.raytracing.RenderingThread;
 
 
 

@@ -1,6 +1,6 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
-import relativity.classicalraytracer.CameraMotion.Frame;
+import relativity.raytracing.classical.CameraMotion.Frame;
 import relativity.toolkit.Vector3;
 
 /*

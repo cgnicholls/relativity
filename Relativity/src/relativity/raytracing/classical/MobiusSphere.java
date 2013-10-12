@@ -1,4 +1,4 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

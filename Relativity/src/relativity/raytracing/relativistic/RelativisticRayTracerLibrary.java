@@ -1,10 +1,11 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import java.awt.Color;
 import java.awt.Rectangle;
 import java.util.ArrayList;
 
-import relativity.DisplayPanel;
+import display.DisplayPanel;
+
 import relativity.scene.RelativisticScene;
 import relativity.scene.objects.RelativisticSceneObject;
 import relativity.toolkit.DopplerEffect;

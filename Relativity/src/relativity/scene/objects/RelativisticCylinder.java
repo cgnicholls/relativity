@@ -3,7 +3,7 @@ package relativity.scene.objects;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
-import relativity.relativisticraytracer.RelativisticRayData;
+import relativity.raytracing.relativistic.RelativisticRayData;
 import relativity.toolkit.FourVector;
 import relativity.toolkit.IntersectionFinder;
 import relativity.toolkit.Lorentz;

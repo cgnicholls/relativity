@@ -1,8 +1,9 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import java.awt.Rectangle;
 
-import relativity.DisplayPanel;
+import display.DisplayPanel;
+
 import relativity.scene.RelativisticScene;
 
 

@@ -3,16 +3,16 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import relativity.DisplayPanel;
-import relativity.relativisticraytracer.Camera;
-import relativity.relativisticraytracer.RelativisticFrame;
-import relativity.relativisticraytracer.RelativisticRayTracer;
+import relativity.raytracing.relativistic.Camera;
+import relativity.raytracing.relativistic.RelativisticFrame;
+import relativity.raytracing.relativistic.RelativisticRayTracer;
 import relativity.scene.RelativisticScene;
 import relativity.toolkit.FourVector;
 import relativity.toolkit.Lorentz;
 import relativity.toolkit.Vector3;
 
 import controller.KeyboardInput;
+import display.DisplayPanel;
 
 
 public class VisualiserModel {

@@ -15,6 +15,7 @@ import relativity.toolkit.MobiusTransformation;
 import models.ConnectionModel;
 
 import controller.KeyboardInput;
+import display.DisplayPanel;
 
 
 public class MainLoop {

@@ -1,4 +1,4 @@
-package relativity;
+package display;
 
 import java.awt.Rectangle;
 

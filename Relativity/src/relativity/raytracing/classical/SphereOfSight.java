@@ -1,9 +1,9 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
 import java.awt.Color;
 
-import relativity.relativisticraytracer.Camera;
-import relativity.relativisticraytracer.RelativisticRayTracerLibrary;
+import relativity.raytracing.relativistic.Camera;
+import relativity.raytracing.relativistic.RelativisticRayTracerLibrary;
 import relativity.scene.RelativisticScene;
 import relativity.scene.objects.SphericalTexture;
 import relativity.toolkit.IntersectionFinder;

@@ -1,6 +1,6 @@
 package relativity.scene.objects;
 
-import relativity.relativisticraytracer.RelativisticRayData;
+import relativity.raytracing.relativistic.RelativisticRayData;
 import relativity.toolkit.FourVector;
 import relativity.toolkit.Vector3;
 

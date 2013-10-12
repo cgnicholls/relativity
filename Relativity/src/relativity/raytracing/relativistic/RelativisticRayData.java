@@ -1,4 +1,4 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import relativity.scene.objects.RelativisticSceneObject;
 import relativity.toolkit.FourVector;

@@ -3,16 +3,14 @@ package models;
 import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
-import relativity.DisplayPanel;
-import relativity.SplitScreen;
-import relativity.classicalraytracer.CameraMotion;
-import relativity.classicalraytracer.ClassicalRayTracer;
-import relativity.classicalraytracer.ClassicalScene;
-import relativity.classicalraytracer.ClassicalSceneObject;
-import relativity.classicalraytracer.ClassicalSphere;
-import relativity.classicalraytracer.MobiusSphere;
-import relativity.classicalraytracer.CameraMotion.Frame;
-import relativity.relativisticraytracer.Camera;
+import relativity.raytracing.classical.CameraMotion;
+import relativity.raytracing.classical.ClassicalRayTracer;
+import relativity.raytracing.classical.ClassicalScene;
+import relativity.raytracing.classical.ClassicalSceneObject;
+import relativity.raytracing.classical.ClassicalSphere;
+import relativity.raytracing.classical.MobiusSphere;
+import relativity.raytracing.classical.CameraMotion.Frame;
+import relativity.raytracing.relativistic.Camera;
 import relativity.scene.RelativisticScene;
 import relativity.toolkit.Complex;
 import relativity.toolkit.GL2C;
@@ -23,6 +21,8 @@ import relativity.toolkit.Quaternion;
 import relativity.toolkit.Vector3;
 
 import controller.KeyboardInput;
+import display.DisplayPanel;
+import display.SplitScreen;
 
 
 public class ConnectionModel {

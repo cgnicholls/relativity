@@ -1,4 +1,4 @@
-package relativity.classicalraytracer;
+package relativity.raytracing.classical;
 
 import relativity.scene.objects.RelativisticSceneObject;
 import relativity.toolkit.Vector3;

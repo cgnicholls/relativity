@@ -1,13 +1,12 @@
-package relativity;
+package relativity.raytracing;
 
 import java.awt.Rectangle;
 
-import relativity.relativisticraytracer.Camera;
-import relativity.relativisticraytracer.MultithreadedRenderer;
+import display.DisplayPanel;
+
+import relativity.raytracing.relativistic.Camera;
+import relativity.raytracing.relativistic.MultithreadedRenderer;
 import relativity.scene.RelativisticScene;
-
-
-
 
 public class RenderingThread extends Thread {
 		

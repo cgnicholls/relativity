@@ -1,4 +1,4 @@
-package relativity.relativisticraytracer;
+package relativity.raytracing.relativistic;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
