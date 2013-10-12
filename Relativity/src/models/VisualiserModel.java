@@ -4,13 +4,13 @@ import java.awt.Rectangle;
 import java.awt.event.KeyEvent;
 
 import relativity.raytracing.relativistic.Camera;
+import relativity.raytracing.relativistic.RelativisticCamera;
 import relativity.raytracing.relativistic.RelativisticFrame;
 import relativity.raytracing.relativistic.RelativisticRayTracer;
 import relativity.scene.RelativisticScene;
 import relativity.toolkit.FourVector;
 import relativity.toolkit.Lorentz;
 import relativity.toolkit.Vector3;
-
 import controller.KeyboardInput;
 import display.DisplayPanel;
 
@@ -18,7 +18,7 @@ import display.DisplayPanel;
 public class VisualiserModel implements Model {
 	
 	private RelativisticRayTracer _relativisticRayTracer;
-	private Camera _relativisticCamera;
+	private RelativisticCamera _relativisticCamera;
 	private RelativisticScene _relativisticScene;
 	
 	private double _beta;
@@ -38,7 +38,7 @@ public class VisualiserModel implements Model {
 	}
 	
 	private void initCamera() {
-		_relativisticCamera = new Camera();
+		_relativisticCamera = new RelativisticCamera();
 		_relativisticCamera.setPosition(new Vector3(0.0, 0.0, 0.0));
 		_beta = 0.0;		
 	}

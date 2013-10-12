@@ -5,7 +5,6 @@ import java.awt.Color;
 import relativity.raytracing.relativistic.Camera;
 import relativity.raytracing.relativistic.RelativisticRayTracerLibrary;
 import relativity.scene.RelativisticScene;
-import relativity.scene.objects.SphericalTexture;
 import relativity.toolkit.IntersectionFinder;
 import relativity.toolkit.Vector3;
 

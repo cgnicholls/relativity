@@ -11,7 +11,7 @@ import relativity.scene.RelativisticScene;
 
 public class RelativisticRayTracer implements RayTracer {
 	
-	private Camera _camera;
+	private RelativisticCamera _camera;
 	private RelativisticScene _scene;
 	private MultithreadedRenderer _multithreadedRenderer;
 	
@@ -21,7 +21,7 @@ public class RelativisticRayTracer implements RayTracer {
 		_camera = null;
 	}
 
-	public void render(final DisplayPanel displayPanel, final Rectangle subImage, final RelativisticScene scene, final Camera camera) {
+	public void render(final DisplayPanel displayPanel, final Rectangle subImage, final RelativisticScene scene, final RelativisticCamera camera) {
 		_camera = camera;
 		_scene = scene;
 

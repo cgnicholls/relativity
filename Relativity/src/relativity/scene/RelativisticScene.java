@@ -2,7 +2,6 @@ package relativity.scene;
 
 import java.util.ArrayList;
 
-import relativity.raytracing.relativistic.RelativisticRayTracerLibrary;
 import relativity.scene.objects.RelativisticCylinder;
 import relativity.scene.objects.RelativisticSceneObject;
 import relativity.scene.objects.RelativisticSphere;

@@ -13,7 +13,7 @@ public abstract class RelativisticRenderingThread extends Thread {
 	private final MultithreadedRenderer _multithreadedRenderer;
 	private int _yStart;
 	private int _yEnd;
-	private Camera _camera;
+	private RelativisticCamera _camera;
 	private RelativisticScene _scene;
 	private DisplayPanel _displayPanel;
 	private Rectangle _subImage;
@@ -29,7 +29,7 @@ public abstract class RelativisticRenderingThread extends Thread {
 		render();
 	}
 	
-	public void startRendering(int yStart, int yEnd, final Camera camera, final RelativisticScene scene, final DisplayPanel displayPanel, final Rectangle subImage) {
+	public void startRendering(int yStart, int yEnd, final RelativisticCamera camera, final RelativisticScene scene, final DisplayPanel displayPanel, final Rectangle subImage) {
 		_yStart = yStart;
 		_yEnd = yEnd;
 		_camera = camera;

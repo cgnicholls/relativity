@@ -5,6 +5,7 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 
 import models.ConnectionModel;
+import models.MobiusModel;
 import models.Model;
 import models.VisualiserModel;
 import controller.KeyboardInput;
