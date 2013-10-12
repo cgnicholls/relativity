@@ -119,10 +119,6 @@ public class ConnectionModel implements Model {
 	 * Processes the keyboard input. In particular, applies the moves to the viewer given by the key controls.
 	 */
 	public void processKeyboardInput(final double deltaT, final KeyboardInput keyboardInput) {
-		if (keyboardInput.keyDown(KeyEvent.VK_ESCAPE)) {
-			System.exit(0);
-		}
-		
 		double rotationSpeed = 0.3;
 		double moveSpeed = 0.1;
 		if (keyboardInput.keyDown(KeyEvent.VK_SHIFT)) {

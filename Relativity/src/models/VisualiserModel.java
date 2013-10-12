@@ -58,10 +58,6 @@ public class VisualiserModel implements Model {
 	 * Processes the keyboard input. In particular, applies the moves to the viewer given by the key controls.
 	 */
 	public void processKeyboardInput(final double deltaT, final KeyboardInput keyboardInput) {
-		if (keyboardInput.keyDown(KeyEvent.VK_ESCAPE)) {
-			System.exit(0);
-		}
-		
 		if (keyboardInput.keyDown(KeyEvent.VK_SPACE)) {
 			initCamera();
 		}
