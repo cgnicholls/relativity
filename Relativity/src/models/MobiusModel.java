@@ -42,7 +42,7 @@ public class MobiusModel implements Model {
 		_fixedPoint2 = HomCoords2D.northPole();
 		GL2C matrix = GL2C.diagonal(computeLambda(_lambdaAlpha, _lambdaBeta), new Complex(1.0, 0.0));
 		MobiusTransformation mobiusTransformation = new MobiusTransformation(matrix);
-		_mobiusSphere = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 1500, 10, 150);
+		_mobiusSphere = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 2000, 10, 200);
 		
 		_t = 0.0;
 	}

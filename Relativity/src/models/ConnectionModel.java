@@ -54,8 +54,8 @@ public class ConnectionModel implements Model {
 		_fixedPoint2 = HomCoords2D.southPole();
 		GL2C matrix = GL2C.diagonal(computeLambda(_lambdaAlpha, 0.0), new Complex(1.0, 0.0));
 		MobiusTransformation mobiusTransformation = new MobiusTransformation(matrix);
-		_mobiusSphereBoost = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 700, 10, 150);
-		_mobiusSphereAll = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 700, 10, 150);
+		_mobiusSphereBoost = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 900, 10, 150);
+		_mobiusSphereAll = new MobiusSphere(new Vector3(0.0, 300.0, 0.0), 100.0, mobiusTransformation, 900, 10, 150);
 		
 		_t = 0.0;
 		

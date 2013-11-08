@@ -30,7 +30,7 @@ public class MainLoop {
 	public MainLoop(final Model model) {
 		_frame = new JFrame(_title);
 		_frame.setLayout(new BorderLayout());
-		_frame.setSize(800, 600);
+		_frame.setSize(1024, 800);
 		_frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		
 		_displayPanel = new DisplayPanel();

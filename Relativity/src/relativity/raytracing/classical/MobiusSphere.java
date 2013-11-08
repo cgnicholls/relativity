@@ -230,7 +230,7 @@ public class MobiusSphere implements ClassicalSceneObject {
 		int y2 = (int) ((point2Y + 1.0) * (double) height / 2.0);
 		Graphics2D graphics = (Graphics2D) image.getGraphics();
 		graphics.setColor(colour);
-		graphics.setStroke(new BasicStroke((float) 3.5));
+		graphics.setStroke(new BasicStroke((float) 5.0));
 		graphics.drawLine(x1, y1, x2, y2);
 	}
 
